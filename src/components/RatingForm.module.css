@@ -1,0 +1,31 @@
+.title {
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-700);
+  font-weight: 700;
+}
+
+.info {
+  margin-top: 1rem;
+  color: var(--clr-neutral-300);
+  margin-bottom: 1.3rem;
+  font-size: var(--fs-400);
+}
+
+.submit {
+  cursor: pointer;
+  width: 100%;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-500);
+  border: none;
+  font-size: var(--fs-400);
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 1.40625rem;
+  padding: 0.9em 1em;
+  letter-spacing: 0.116875rem;
+}
+
+.submit:hover {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-primary-500);
+}

@@ -1,0 +1,13 @@
+.item {
+  width: 2.375rem;
+  height: 2.375rem;
+  background-color: var(--clr-neutral-700);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 0.875rem;
+}

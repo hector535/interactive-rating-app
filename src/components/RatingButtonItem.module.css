@@ -1,0 +1,27 @@
+.btn {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background-color: var(--clr-neutral-700);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--clr-neutral-500);
+  font-weight: 700;
+  font-size: var(--fs-400);
+}
+
+.btn--active {
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-300);
+  font-weight: bold;
+}
+
+@media (min-width: 50rem) {
+  .btn:hover {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-500);
+    font-weight: bold;
+  }
+}

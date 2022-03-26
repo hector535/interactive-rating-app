@@ -1,0 +1,39 @@
+:root {
+  --clr-primary-500: hsl(25, 97%, 53%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-300: hsl(217, 12%, 63%);
+  --clr-neutral-500: hsl(216, 12%, 54%);
+  --clr-neutral-700: hsl(213, 19%, 18%);
+  --clr-neutral-900: hsl(216, 12%, 8%);
+
+  --ff-primary: "Overpass", sans-serif;
+
+  --fs-400: 0.875rem;
+  --fs-700: 1.5rem;
+}
+
+@media (min-width: 50rem) {
+  :root {
+    --fs-400: 0.9375rem;
+    --fs-700: 1.75rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+}
+
+#root {
+  height: 100vh;
+  background-color: var(--clr-neutral-900);
+  display: flex;
+  align-items: center;
+}
