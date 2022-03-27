@@ -1,19 +1,10 @@
 import StarItem from "./StarItem";
 import classes from "./StarList.module.css";
 
-const createDummyArray = (elements) => {
-  let stars = [];
-  for (let i = 0; i < elements; i++) {
-    stars.push(<StarItem key={i} />);
-  }
-
-  return stars;
-};
-
 const StarList = (props) => {
   const { rating } = props;
 
-  const stars = createDummyArray(rating);
+  const stars = new Array(rating).map((_, i) => <StarItem key={i} />);
   return <ul className={classes["list"]}>{stars}</ul>;
 };
 
