@@ -25,7 +25,12 @@
   letter-spacing: 0.116875rem;
 }
 
-.submit:hover {
+.submit:hover:enabled {
   background-color: var(--clr-neutral-100);
   color: var(--clr-primary-500);
+}
+
+.submit:disabled {
+  background-color: hsl(25, 93%, 70%);
+  cursor: not-allowed;
 }

@@ -15,6 +15,10 @@ class RatingForm extends Component {
   submitRatingHandler = (event) => {
     event.preventDefault();
 
+    if (this.state.rating === 0) {
+      return;
+    }
+
     this.props.onSubmited(this.state.rating);
   };
 
@@ -30,7 +34,12 @@ class RatingForm extends Component {
         <RatingButtonList
           onSelectedRatingButton={this.selectedRatingButtonHandler}
         />
-        <button className={classes["submit"]}>submit</button>
+        <button
+          className={classes["submit"]}
+          disabled={this.state.rating === 0}
+        >
+          submit
+        </button>
       </form>
     );
   };
