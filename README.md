@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/hector535/interactive-rating-app](https://github.com/hector535/interactive-rating-app)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [https://hector535.github.io/interactive-rating-app/](https://hector535.github.io/interactive-rating-app/)
 
 ## My process
 
